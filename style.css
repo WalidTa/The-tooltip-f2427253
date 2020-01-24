@@ -1,0 +1,22 @@
+.tooltip {
+    position: relative;
+    bottom: 91%;
+    left: 91%;
+}
+
+ 
+
+.tooltip-content {
+    visibility: hidden;
+    padding: 9px;
+    position: relative;
+    right: 92%;
+}
+
+ 
+
+.icon:hover~.tooltip-content {
+    background: black;
+    color: white;
+    visibility: visible;
+}
